@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,17 +66,17 @@ footer{text-align:center;color:#aaa;font-size:0.7rem;padding:16px 0 8px;max-widt
 </head>
 <body>
 <header>
-  <div class="logo">âš½</div>
+  <div class="logo">⚽</div>
   <div class="htxt">
     <h1>Upcoming <span>Football Fixtures</span></h1>
-    <div class="sub">All Leagues Â· 2025â€“2026 Season Â· 1X2 Odds</div>
+    <div class="sub">All Leagues · 2025–2026 Season · 1X2 Odds</div>
   </div>
   <div class="meta"><span class="upd">Updated: 5 Mar 2026</span></div>
 </header>
 
 <div class="filters" id="filters"></div>
 <div id="content"></div>
-<footer>Data sourced from Footballstreams MCP Â· 7 Leagues Â· 50 Fixtures Â· Odds: 1=Home Win Â· X=Draw Â· 2=Away Win</footer>
+<footer>Data sourced from Footballstreams MCP · 7 Leagues · 50 Fixtures · Odds: 1=Home Win · X=Draw · 2=Away Win</footer>
 
 <script>
 const DATA = [
@@ -98,17 +99,17 @@ const DATA = [
   {competition:"Bundesliga",category:"Germany",round_num:25,home_team:"VfL Wolfsburg",away_team:"Hamburger SV",match_time:"2026-03-07T14:30:00Z",venue_id:"Volkswagen Arena, Wolfsburg",home_position:17,away_position:11,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/56ypq3nhdnkmd7o.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/gy0or5jhdoyqwzv.png",h:2.36,d:3.75,a:3.23},
   {competition:"Bundesliga",category:"Germany",round_num:25,home_team:"1. FC Heidenheim 1846",away_team:"TSG Hoffenheim",match_time:"2026-03-07T14:30:00Z",venue_id:"Voith-Arena, Heidenheim",home_position:18,away_position:3,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/n54qllh261zqvy9.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/kdj2ryoh3wyq1zp.png",h:4.5,d:4.35,a:1.76},
   {competition:"Bundesliga",category:"Germany",round_num:25,home_team:"1. FSV Mainz 05",away_team:"VfB Stuttgart",match_time:"2026-03-07T14:30:00Z",venue_id:"MEWA Arena, Mainz",home_position:14,away_position:4,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/jednm9whl2kryox.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/gx7lm7phd7em2wd.png",h:3.3,d:3.85,a:2.28},
-  {competition:"Bundesliga",category:"Germany",round_num:25,home_team:"FC KÃ¶ln",away_team:"Borussia Dortmund",match_time:"2026-03-07T17:30:00Z",venue_id:"RheinEnergieStadion, Cologne",home_position:13,away_position:2,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/yl5ergphj74r8k0.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/4zp5rzghe4nq82w.png",h:4.7,d:4.4,a:1.9},
+  {competition:"Bundesliga",category:"Germany",round_num:25,home_team:"FC Köln",away_team:"Borussia Dortmund",match_time:"2026-03-07T17:30:00Z",venue_id:"RheinEnergieStadion, Cologne",home_position:13,away_position:2,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/yl5ergphj74r8k0.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/4zp5rzghe4nq82w.png",h:4.7,d:4.4,a:1.9},
   {competition:"Bundesliga",category:"Germany",round_num:25,home_team:"FC St. Pauli",away_team:"Eintracht Frankfurt",match_time:"2026-03-08T14:30:00Z",venue_id:"Millerntor-Stadion, Hamburg",home_position:15,away_position:7,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/gy0or5jhkvwqwzv.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/p3glrw7henvqdyj.png",h:2.7,d:3.4,a:2.91},
-  {competition:"Bundesliga",category:"Germany",round_num:25,home_team:"1. FC Union Berlin",away_team:"SV Werder Bremen",match_time:"2026-03-08T16:30:00Z",venue_id:"An der Alten FÃ¶rsterei, Berlin",home_position:10,away_position:16,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/9vjxm8gh613r6od.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/9k82rekhdxorepz.png",h:2.12,d:3.55,a:3.81},
+  {competition:"Bundesliga",category:"Germany",round_num:25,home_team:"1. FC Union Berlin",away_team:"SV Werder Bremen",match_time:"2026-03-08T16:30:00Z",venue_id:"An der Alten Försterei, Berlin",home_position:10,away_position:16,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/9vjxm8gh613r6od.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/9k82rekhdxorepz.png",h:2.12,d:3.55,a:3.81},
   // La Liga
-  {competition:"Spanish La Liga",category:"Spain",round_num:27,home_team:"RC Celta",away_team:"Real Madrid",match_time:"2026-03-06T20:00:00Z",venue_id:"Municipal de BalaÃ­dos, Vigo",home_position:6,away_position:2,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/v2y8m4zh90gql07.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/e4wyrn4h111q86p.png",h:4.75,d:4.42,a:1.73},
+  {competition:"Spanish La Liga",category:"Spain",round_num:27,home_team:"RC Celta",away_team:"Real Madrid",match_time:"2026-03-06T20:00:00Z",venue_id:"Municipal de Balaídos, Vigo",home_position:6,away_position:2,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/v2y8m4zh90gql07.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/e4wyrn4h111q86p.png",h:4.75,d:4.42,a:1.73},
   {competition:"Spanish La Liga",category:"Spain",round_num:27,home_team:"CA Osasuna",away_team:"RCD Mallorca",match_time:"2026-03-07T13:00:00Z",venue_id:"Estadio El Sadar, Pamplona",home_position:10,away_position:18,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/vl7oqdehkx5r510.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/gpxwrxlhw6vryk0.png",h:1.79,d:3.7,a:5},
   {competition:"Spanish La Liga",category:"Spain",round_num:27,home_team:"Levante",away_team:"Girona FC",match_time:"2026-03-07T15:15:00Z",venue_id:"Levante Stadium",home_position:19,away_position:11,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/4zp5rzgh9z9q82w.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/p3glrw7h550qdyj.png",h:2.92,d:3.4,a:2.76},
   {competition:"Spanish La Liga",category:"Spain",round_num:27,home_team:"Atletico Madrid",away_team:"Real Sociedad",match_time:"2026-03-07T17:30:00Z",venue_id:"Atletico Madrid Stadium",home_position:3,away_position:7,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/9vjxm8ghodjr6od.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/v2y8m4zhdd2ql07.png",h:0,d:0,a:0},
-  {competition:"Spanish La Liga",category:"Spain",round_num:27,home_team:"Athletic Club",away_team:"FC Barcelona",match_time:"2026-03-07T20:00:00Z",venue_id:"San MamÃ©s Stadium, Bilbao",home_position:9,away_position:1,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/gy0or5jhd6yqwzv.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/e4wyrn4h127q86p.png",h:4.6,d:4.58,a:1.67},
+  {competition:"Spanish La Liga",category:"Spain",round_num:27,home_team:"Athletic Club",away_team:"FC Barcelona",match_time:"2026-03-07T20:00:00Z",venue_id:"San Mamés Stadium, Bilbao",home_position:9,away_position:1,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/gy0or5jhd6yqwzv.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/e4wyrn4h127q86p.png",h:4.6,d:4.58,a:1.67},
   {competition:"Spanish La Liga",category:"Spain",round_num:27,home_team:"Villarreal CF",away_team:"Elche",match_time:"2026-03-08T13:00:00Z",venue_id:"Villarreal CF Stadium",home_position:4,away_position:17,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/kjw2r09hvwwrz84.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/gy0or5jhd2gqwzv.png",h:0,d:0,a:0},
-  {competition:"Spanish La Liga",category:"Spain",round_num:27,home_team:"Getafe",away_team:"Real Betis",match_time:"2026-03-08T15:15:00Z",venue_id:"Coliseum Alfonso PÃ©rez, Getafe",home_position:14,away_position:5,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/vl7oqdehz33r510.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/d23xmvkhz9nqg8n.png",h:2.85,d:3.05,a:3.02},
+  {competition:"Spanish La Liga",category:"Spain",round_num:27,home_team:"Getafe",away_team:"Real Betis",match_time:"2026-03-08T15:15:00Z",venue_id:"Coliseum Alfonso Pérez, Getafe",home_position:14,away_position:5,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/vl7oqdehz33r510.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/d23xmvkhz9nqg8n.png",h:2.85,d:3.05,a:3.02},
   // Serie A
   {competition:"Italian Serie A",category:"Italy",round_num:28,home_team:"Napoli",away_team:"Torino",match_time:"2026-03-06T19:45:00Z",venue_id:"Maradona Stadium, Naples",home_position:4,away_position:15,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/4zp5rzghvdoq82w.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/z8yomo4hw6lq0j6.png",h:1.5,d:4.52,a:7.3},
   {competition:"Italian Serie A",category:"Italy",round_num:28,home_team:"Cagliari",away_team:"Como",match_time:"2026-03-07T14:00:00Z",venue_id:"Cagliari Stadium",home_position:13,away_position:5,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/kn54qllh6xwqvy9.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/z8yomo4hnz4q0j6.png",h:5.2,d:4.05,a:1.72},
@@ -121,12 +122,12 @@ const DATA = [
   // Ligue 1
   {competition:"French Ligue 1",category:"France",round_num:25,home_team:"Paris Saint Germain",away_team:"AS Monaco",match_time:"2026-03-06T19:45:00Z",venue_id:"Parc des Princes, Paris",home_position:1,away_position:8,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/kjw2r09hv44rz84.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/yl5ergph6ner8k0.png",h:1.36,d:6.3,a:9.2},
   {competition:"French Ligue 1",category:"France",round_num:25,home_team:"FC Nantes",away_team:"Angers SCO",match_time:"2026-03-07T16:00:00Z",venue_id:"Stade de la Beaujoire, Nantes",home_position:17,away_position:12,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/56ypq3nhynjmd7o.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/yl5ergphjggr8k0.png",h:2.37,d:3.25,a:3.5},
-  {competition:"French Ligue 1",category:"France",round_num:25,home_team:"AJ Auxerre",away_team:"RC Strasbourg Alsace",match_time:"2026-03-07T18:00:00Z",venue_id:"Stade de l'AbbÃ©-Deschamps",home_position:16,away_position:8,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/8y39mp1hnvnmojx.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/v2y8m4zhd66ql07.png",h:3.75,d:3.45,a:2.21},
+  {competition:"French Ligue 1",category:"France",round_num:25,home_team:"AJ Auxerre",away_team:"RC Strasbourg Alsace",match_time:"2026-03-07T18:00:00Z",venue_id:"Stade de l'Abbé-Deschamps",home_position:16,away_position:8,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/8y39mp1hnvnmojx.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/v2y8m4zhd66ql07.png",h:3.75,d:3.45,a:2.21},
   {competition:"French Ligue 1",category:"France",round_num:25,home_team:"Toulouse FC",away_team:"Marseille",match_time:"2026-03-07T20:05:00Z",venue_id:"Stadium Municipal, Toulouse",home_position:10,away_position:4,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/kdj2ryoh6k5q1zp.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/kjw2r09hyl1rz84.png",h:3.2,d:3.6,a:2.5},
   {competition:"French Ligue 1",category:"France",round_num:25,home_team:"RC Lens",away_team:"Metz",match_time:"2026-03-08T14:00:00Z",venue_id:"Stade Bollaert-Delelis, Lens",home_position:2,away_position:18,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/jednm9wh4jjryox.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/vl7oqdehwner510.png",h:1.27,d:6.97,a:11.62},
   {competition:"French Ligue 1",category:"France",round_num:25,home_team:"LOSC Lille",away_team:"Lorient",match_time:"2026-03-08T16:15:00Z",venue_id:"Stade Pierre-Mauroy, Lille",home_position:5,away_position:10,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/p3glrw7h2pdqdyj.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/d23xmvkh5vvqg8n.png",h:0,d:0,a:0},
   {competition:"French Ligue 1",category:"France",round_num:25,home_team:"OGC Nice",away_team:"Stade Rennais FC",match_time:"2026-03-08T16:15:00Z",venue_id:"Allianz Riviera, Nice",home_position:15,away_position:6,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/p3glrw7h5oeqdyj.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/v2y8m4zhyzvql07.png",h:0,d:0,a:0},
-  {competition:"French Ligue 1",category:"France",round_num:25,home_team:"Stade Brestois 29",away_team:"Havre Athletic Club",match_time:"2026-03-08T16:15:00Z",venue_id:"Stade Francis-Le-BlÃ©, Brest",home_position:9,away_position:13,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/p4jwq2ghdn7m0ve.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/8y39mp1hnj7mojx.png",h:0,d:0,a:0},
+  {competition:"French Ligue 1",category:"France",round_num:25,home_team:"Stade Brestois 29",away_team:"Havre Athletic Club",match_time:"2026-03-08T16:15:00Z",venue_id:"Stade Francis-Le-Blé, Brest",home_position:9,away_position:13,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/p4jwq2ghdn7m0ve.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/8y39mp1hnj7mojx.png",h:0,d:0,a:0},
   // Eredivisie
   {competition:"Netherlands Eredivisie",category:"Netherlands",round_num:26,home_team:"Heracles Almelo",away_team:"FC Utrecht",match_time:"2026-03-06T19:00:00Z",venue_id:"Polman Stadion, Almelo",home_position:18,away_position:8,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/kn54qllh6ewqvy9.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/gy0or5jhdzyqwzv.png",h:0,d:0,a:0},
   {competition:"Netherlands Eredivisie",category:"Netherlands",round_num:26,home_team:"Groningen",away_team:"AFC Ajax",match_time:"2026-03-07T15:30:00Z",venue_id:"Groningen Stadium",home_position:11,away_position:3,status:"Not started",home_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/gx7lm7phe0xm2wd.png",away_image:"https://www.imageservera.com/cdn-cgi/image/format=webp/uploadedimages/202508/Aug13/jednm9whl7kryox.png",h:0,d:0,a:0},
@@ -139,9 +140,9 @@ const DATA = [
 ];
 
 const FLAGS = {
-  "English Premier League":"ðŸ´ó §ó ¢ó ¥ó ®ó §ó ¿","Spanish La Liga":"ðŸ‡ªðŸ‡¸","Bundesliga":"ðŸ‡©ðŸ‡ª",
-  "Italian Serie A":"ðŸ‡®ðŸ‡¹","French Ligue 1":"ðŸ‡«ðŸ‡·","Netherlands Eredivisie":"ðŸ‡³ðŸ‡±",
-  "Saudi Professional League":"ðŸ‡¸ðŸ‡¦"
+  "English Premier League":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","Spanish La Liga":"🇪🇸","Bundesliga":"🇩🇪",
+  "Italian Serie A":"🇮🇹","French Ligue 1":"🇫🇷","Netherlands Eredivisie":"🇳🇱",
+  "Saudi Professional League":"🇸🇦"
 };
 
 const COMP_ORDER = ["English Premier League","Bundesliga","Spanish La Liga","Italian Serie A","French Ligue 1","Netherlands Eredivisie","Saudi Professional League"];
@@ -163,7 +164,7 @@ function fmtTime(iso){
 function ord(n){ const s=['th','st','nd','rd'],v=n%100; return n+(s[(v-20)%10]||s[v]||s[0]); }
 
 function oddsCell(f){
-  if(!f.h && !f.d && !f.a) return '<span class="na">â€“</span>';
+  if(!f.h && !f.d && !f.a) return '<span class="na">–</span>';
   const min = Math.min(f.h,f.d,f.a);
   const pill = (lbl,val) => {
     const cls = val===min?' lo':'';
@@ -194,9 +195,9 @@ function render(){
     const sample = rows[0];
     html += `<div class="section" id="s_${k}" style="display:${vis}">
       <div class="lhdr">
-        <span class="lflag">${FLAGS[comp]||'ðŸ†'}</span>
+        <span class="lflag">${FLAGS[comp]||'🏆'}</span>
         <span class="lname">${comp}</span>
-        <span class="lbadge">Round ${sample.round_num} Â· ${sample.category}</span>
+        <span class="lbadge">Round ${sample.round_num} · ${sample.category}</span>
       </div>
       <div class="tw"><table>
         <thead><tr>
@@ -224,7 +225,7 @@ function render(){
         </div></td>
         <td class="venue hm">${venue}</td>
         <td><div class="kick">${t.t}<small>${t.date}</small></div></td>
-        <td class="hm"><span class="pos">${ord(f.home_position)}</span> <span style="color:#ddd">Â·</span> <span class="pos">${ord(f.away_position)}</span></td>
+        <td class="hm"><span class="pos">${ord(f.home_position)}</span> <span style="color:#ddd">·</span> <span class="pos">${ord(f.away_position)}</span></td>
         <td><span class="sbadge">${f.status}</span></td>
         <td class="oc">${oddsCell(f)}</td>
       </tr>`;
